@@ -3,7 +3,7 @@ pragma solidity ^0.8.17;
 
 import "./IPair.sol";
 
-abstract contract PAIR is ImmutableState, ReentrancyGuard, IPair {
+abstract contract Pair is ImmutableState, ReentrancyGuard, IPair {
     IERC20 public immutable token0;
     IERC20 public immutable token1;
 
